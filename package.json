@@ -1,0 +1,37 @@
+{
+  "name": "smarteditor2-webpack-sample",
+  "version": "1.0.0",
+  "description": "smarteditor2 sample project with webpack",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --hot",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyungilpark/smarteditor2-webpack-sample.git"
+  },
+  "keywords": [
+    "javascript",
+    "smarteditor2",
+    "SmartEditor",
+    "webpack",
+    "sample"
+  ],
+  "author": "Kyungil Park <kylepark77@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyungilpark/smarteditor2-webpack-sample/issues"
+  },
+  "homepage": "https://github.com/kyungilpark/smarteditor2-webpack-sample#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "html-webpack-plugin": "^3.2.0",
+    "smarteditor2": "^2.10.0-alpha.8",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
